@@ -4,9 +4,7 @@ import { PROFIL_SEARCH_PAGE_TITLE } from '../profilSearch/constants';
 import ProfilSearchPage from '../profilSearch/view/ProfilSearchPage';
 import { PROFIL_DETAILS_PAGE_TITLE } from '../profilDetails/constants';
 import ProfilDetailsPage from '../profilDetails/view/ProfilDetailsPage';
-import { Text } from 'react-native';
 import CustomDrawer from './view/DrawerView';
-import { Colors } from '../theme/colors';
 
 const Drawer = createDrawerNavigator();
 
