@@ -5,6 +5,7 @@ export const Theme = {
 	fontSize14: 14,
 	fontSize16: 16,
 	fontSize18: 18,
+	fontSize22: 22,
 	fontSize24: 24,
 	space5: 5,
 	space10: 10,

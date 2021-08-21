@@ -75,7 +75,7 @@ export type IconProps = {
 };
 
 const Icon = (props: IconProps) => {
-	const { name, size, color, library, style } = props;
+	const { name, size = 24, color, library, style } = props;
 
 	if (library === "antDesign" || props.antDesign) {
 		// @ts-ignore
