@@ -1,28 +1,27 @@
 # Todo 📥
 
-* Mock data ~100 users
-
-* Search page
-
-* Details page
-
-
+- Details page
 
 # In progress ⏳
 
-
+- Search page
 
 # Done ✅
 
+## Data
+
+- Mock data ~100 users
 
 ## UI
 
-* Drawer
+- ProfilCard
+
+- Drawer
 
 ## Assets
 
-* Logo
+- Logo
 
-* Icon
+- Icon
 
-* Splash screen
+- Splash screen

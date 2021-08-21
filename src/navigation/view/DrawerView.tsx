@@ -15,7 +15,7 @@ import Icon, { IconLibraryType, IconNameType } from '../../components/Icon';
 const CustomDrawer = () => {
 	return <View style={{ flex: 1, backgroundColor: Colors.blue_dark }}>
 		<DrawerHeader />
-		<View style={{ paddingHorizontal: Theme.space3, flex: 1 }}>
+		<View style={{ paddingHorizontal: Theme.space20, flex: 1 }}>
 			<DrawerRouteItem label={"Mes rendez-vous"} />
 			<Divider />
 			<DrawerRouteItem label={"Mes documents"} />
@@ -31,7 +31,7 @@ const CustomDrawer = () => {
 				iconName={"lock"}
 				library="fontAwesome"
 			/>
-			<Space vertical size={Theme.space3} />
+			<Space vertical size={Theme.space20} />
 		</View>
 	</View >
 }
@@ -46,20 +46,20 @@ type DrawerRouteItemProps = {
 const DrawerRouteItem = (props: DrawerRouteItemProps) => {
 	const { label, disable = false, iconName, library } = props;
 	return <View style={{
-		paddingVertical: Theme.space3,
+		paddingVertical: Theme.space20,
 		flexDirection: "row",
 		alignItems: "center"
 	}}>
 		{iconName ? <Icon
 			name={iconName}
 			library={library}
-			style={{ paddingRight: Theme.space3 }}
+			style={{ paddingRight: Theme.space20 }}
 			color={Colors.white4}
 			size={32}
 		/> : null}
 		<Text style={{
 			color: disable ? Colors.white2 : Colors.white1,
-			fontSize: disable ? Theme.fontSize3 : Theme.fontSize4,
+			fontSize: disable ? Theme.fontSize14 : Theme.fontSize16,
 			fontWeight: disable ? "100" : "normal",
 		}}>
 			{label}
@@ -74,12 +74,12 @@ const DrawerHeader = () => {
 
 	return <View style={{
 		height: headerHeight,
-		padding: Theme.space3,
+		padding: Theme.space20,
 		paddingTop: statusBarHeight,
 		backgroundColor: Colors.blue_grey,
 		justifyContent: "flex-end"
 	}}>
-		<Text style={{ color: Colors.white1, fontSize: Theme.fontSize5 }}>
+		<Text style={{ color: Colors.white1, fontSize: Theme.fontSize18 }}>
 			Xavier Niel
 		</Text>
 	</View>
