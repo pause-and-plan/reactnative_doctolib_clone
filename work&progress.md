@@ -2,7 +2,7 @@
 
 - separate randomUserApi in an other package
 
-- Update readme & get started section
+- add connexion screen after splash screen
 
 # In progress ⏳
 
