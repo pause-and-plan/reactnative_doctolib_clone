@@ -2,6 +2,8 @@
 
 - separate randomUserApi in an other package
 
+- add connexion screen after splash screen
+
 # In progress ⏳
 
 # Done ✅
