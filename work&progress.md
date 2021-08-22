@@ -2,8 +2,6 @@
 
 - separate randomUserApi in an other package
 
-- add connexion screen after splash screen
-
 # In progress ⏳
 
 # Done ✅
@@ -23,6 +21,8 @@
 ## UI
 
 - create a search textfield in headerBar
+
+- Home Page
 
 - Details page
 
