@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import getUserList from "../../randomUserAPI/logic/getUserList";
 import User from "../../randomUserAPI/models/user";
+import { useToast } from "native-base";
+import { Colors } from "../../theme/colors";
 
 const useUserList = () => {
   const [userList, setUserList] = useState<User[]>([]);
   const [error, setError] = useState<string>("");
+  const toast = useToast();
 
   const refreshUserList = async () => {
     try {
@@ -12,7 +15,12 @@ const useUserList = () => {
       setUserList([...userList, ...list]);
       if (error != "") setError("");
     } catch (_) {
-      setError("Echec du chargement des profils");
+      const errorMessage = "Echec du chargement des profils";
+      setError(errorMessage);
+      toast.show({
+        title: errorMessage,
+        status: "error",
+      });
     }
   };
 

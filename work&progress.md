@@ -2,17 +2,19 @@
 
 - separate randomUserApi in an other package
 
-- create a search textfield in headerBar
-
 - create fake page to tweak drawer experience
-
-- check error if api request fail
 
 - Update readme & get started section
 
 # In progress ⏳
 
+- create a search textfield in headerBar
+
 # Done ✅
+
+## Error Handling
+
+- check error if api request fail
 
 ## Data
 
