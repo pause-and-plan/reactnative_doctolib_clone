@@ -9,8 +9,18 @@ import Divider from "../../components/Divider";
 import Expanded from "../../components/Expanded";
 import Space from "../../components/Space";
 import Icon, { IconLibraryType, IconNameType } from "../../components/Icon";
+import { RootDrawerParamList } from "../constants";
+import { NativeStackNavigationProp } from "@react-navigation/native-stack";
+import { useNavigation } from "@react-navigation/native";
+import { SecureNavigationProp } from "../DrawerNavigator";
 
-const CustomDrawer = () => {
+interface CustomDrawerProps {
+  navigation: SecureNavigationProp;
+}
+
+const CustomDrawer = (props: CustomDrawerProps) => {
+  const { navigation } = props;
+
   return (
     <View style={{ flex: 1, backgroundColor: Colors.blue_dark }}>
       <DrawerHeader />
@@ -29,6 +39,7 @@ const CustomDrawer = () => {
           label={"Se deconnecter"}
           iconName={"lock"}
           library="fontAwesome"
+          onPress={() => navigation.navigate("Home")}
         />
         <Space vertical size={Theme.space20} />
       </View>
@@ -41,12 +52,19 @@ type DrawerRouteItemProps = {
   disable?: boolean;
   iconName?: IconNameType;
   library?: IconLibraryType;
+  onPress?: Function;
 };
 
 const DrawerRouteItem = (props: DrawerRouteItemProps) => {
-  const { label, disable = false, iconName, library } = props;
+  const {
+    label,
+    disable = false,
+    iconName,
+    library,
+    onPress = () => {},
+  } = props;
   return (
-    <TouchableOpacity disabled={disable}>
+    <TouchableOpacity disabled={disable} onPress={() => onPress()}>
       <View
         style={{
           paddingVertical: Theme.space20,

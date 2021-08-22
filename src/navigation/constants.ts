@@ -6,3 +6,9 @@ export type RootStackParamList = {
   ProfilSearch: undefined;
   ProfilDetails: { profil: User };
 };
+
+export type RootDrawerParamList = {
+  Home: undefined;
+  SecureNavigation: undefined;
+};
+
