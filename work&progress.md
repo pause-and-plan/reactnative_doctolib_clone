@@ -6,9 +6,10 @@
 
 - Update readme & get started section
 
+- Check language syntax
+
 # In progress ⏳
 
-- create a search textfield in headerBar
 
 # Done ✅
 
@@ -21,6 +22,8 @@
 - Mock data ~100 users
 
 ## UI
+
+- create a search textfield in headerBar
 
 - Details page
 

@@ -1,5 +1,10 @@
 export const Colors = {
   primary: "#0596DE",
+  primary1: "hsla(200, 96%, 45%, 0.87)",
+  primary2: "hsla(200, 96%, 45%, 0.54)",
+  primary3: "hsla(200, 96%, 45%, 0.38)",
+  primary4: "hsla(200, 96%, 45%, 0.24)",
+  primary5: "hsla(200, 96%, 45%, 0.12)",
   blue_grey: "#29394B",
   blue_dark: "#122237",
   white: "#FFFFFF",

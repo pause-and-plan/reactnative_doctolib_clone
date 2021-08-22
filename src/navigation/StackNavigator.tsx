@@ -13,7 +13,8 @@ function StackNavigator() {
         name={"ProfilSearch"}
         component={ProfilSearchPage}
         options={{
-          headerTitleAlign: "center",
+        //   headerTitleAlign: "center",
+          headerShown: false,
         }}
       />
       <Stack.Screen

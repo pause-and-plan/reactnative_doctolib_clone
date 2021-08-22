@@ -9,9 +9,9 @@ const useUserList = () => {
   const [error, setError] = useState<string>("");
   const toast = useToast();
 
-  const refreshUserList = async () => {
+  const refreshUserList = async (results?: number) => {
     try {
-      const list: User[] = await getUserList({ results: 20 });
+      const list: User[] = await getUserList({ results: results ?? 20 });
       setUserList([...userList, ...list]);
       if (error != "") setError("");
     } catch (_) {
