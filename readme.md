@@ -2,6 +2,10 @@
 
 The purpose of this project is to clone a part of doctolib mobil app in 48h
 
+# Results
+
+https://user-images.githubusercontent.com/83555873/130362014-650a17e7-752b-4434-a684-36fc41ea8ec3.mp4
+
 # Quick start 🐆
 
 ## install Expo CLI on computer 💻
