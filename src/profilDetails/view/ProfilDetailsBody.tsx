@@ -18,58 +18,67 @@ const ProfilDetailsBody = (props: ProfilDetailsBodyProps) => {
 
   return (
     <View style={{ paddingHorizontal: Theme.space20 }}>
-      <TouchableOpacity
-        onPress={() => {}}
+      <View
         style={{
           bottom: 25,
           width: "100%",
           height: 50,
           borderRadius: Theme.roundness,
-          backgroundColor: Colors.primary,
-          justifyContent: "center",
-          elevation: 10,
+          backgroundColor: Colors.white,
         }}
       >
-        <Text
+        <TouchableOpacity
+          onPress={() => {}}
           style={{
-            fontWeight: "bold",
-            fontSize: Theme.fontSize18,
-            alignSelf: "center",
-            color: Colors.white1,
+            width: "100%",
+            height: 50,
+            borderRadius: Theme.roundness,
+            backgroundColor: Colors.primary,
+            justifyContent: "center",
+            elevation: 10,
           }}
         >
-          Prendre rendez-vous en ligne
-        </Text>
-      </TouchableOpacity>
+          <Text
+            style={{
+              fontWeight: "bold",
+              fontSize: Theme.fontSize18,
+              alignSelf: "center",
+              color: Colors.white1,
+            }}
+          >
+            Prendre rendez-vous en ligne
+          </Text>
+        </TouchableOpacity>
+      </View>
       <ProfilDetailsItem
         iconName="location-outline"
         iconLib="ionicons"
-        title="Institut medical Sport Sante (IMSS) - Stade Francais Paris"
+        title="Institut médical Sport Santé (IMSS) - Stade Francais Paris"
         lines={[`${street?.number} ${street?.name}`, `${postcode} ${city}`]}
       />
       <ProfilDetailsItem
         iconName="euro"
         iconLib="materialIcons"
         title="Tarifs et remboursements"
-        lines={[`Conventionne secteur 2`, `Carte Vitale acceptee`]}
+        lines={[`Conventionné secteur 2`, `Carte Vitale acceptée`]}
       />
       <ProfilDetailsItem
         iconName="credit-card"
         iconLib="fontAwesome"
         title="Moyens de paiement"
-        lines={[`Cheques, especes et carte bancaires`]}
+        lines={[`Chèques, espèces et carte bancaires`]}
       />
       <Divider color={Colors.black5} margin={Theme.space5} />
       <ProfilDetailsItem
         iconName="microscope"
         iconLib="fontAwesome5"
         title="Expertise et actes"
-        tags={[`Traumatologie du sport`, `Medecine d'urgence`]}
+        tags={[`Traumatologie du sport`, `Médecine d'urgence`]}
       />
       <ProfilDetailsItem
         iconName="text"
         iconLib="materialCommunityIcons"
-        title="Presentation"
+        title="Présentation"
       />
       <Divider color={Colors.black5} margin={Theme.space5} />
       <ProfilDetailsItem
@@ -87,13 +96,13 @@ const ProfilDetailsBody = (props: ProfilDetailsBodyProps) => {
       <ProfilDetailsItem
         iconName="flag"
         iconLib="feather"
-        title="Langues parlees"
+        title="Langues parlées"
       />
       <Divider color={Colors.black5} margin={Theme.space5} />
       <ProfilDetailsItem
         iconName="microscope"
         iconLib="fontAwesome5"
-        title="Experiences"
+        title="Expériences"
       />
       <Divider color={Colors.black5} margin={Theme.space5} />
       <ProfilDetailsItem
@@ -105,7 +114,7 @@ const ProfilDetailsBody = (props: ProfilDetailsBodyProps) => {
       <ProfilDetailsItem
         iconName="information-circle-outline"
         iconLib="ionicons"
-        title="Informations legales"
+        title="Informations légales"
       />
       <Space vertical size={100} />
     </View>

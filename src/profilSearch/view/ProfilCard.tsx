@@ -61,7 +61,7 @@ const ProfilCardFooter = (props: ProfilCardProps) => {
         }}
       >
         <Text style={{ fontSize: Theme.fontSize14, color: Colors.black3 }}>
-          {`Prochaine disponibilite`}
+          {`Prochaine disponibilité`}
         </Text>
       </View>
       <Space vertical size={5} />
@@ -145,7 +145,7 @@ const ProfilCardJob = (props: ProfilCardProps) => {
       <Icon name="stethoscope" fontAwesome size={20} color={Colors.black1} />
       <Space horizontal size={10} />
       <Text style={{ fontSize: Theme.fontSize14 }}>
-        {`Medecin Generaliste`}
+        {`Médecin Généraliste`}
       </Text>
     </View>
   );

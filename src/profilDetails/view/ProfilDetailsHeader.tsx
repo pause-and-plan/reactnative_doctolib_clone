@@ -63,7 +63,7 @@ const ProfilDetailsHeader = (props: ProfilDetailsHeaderProps) => {
                 fontWeight: "bold",
               }}
             >
-              {`Medecin generaliste`}
+              {`Médecin généraliste`}
             </Text>
           </View>
         </View>

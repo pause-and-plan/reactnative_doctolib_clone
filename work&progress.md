@@ -2,16 +2,15 @@
 
 - separate randomUserApi in an other package
 
-- create fake page to tweak drawer experience
-
 - Update readme & get started section
-
-- Check language syntax
 
 # In progress ⏳
 
-
 # Done ✅
+
+## Language & Syntax
+
+- Check language syntax
 
 ## Error Handling
 
