@@ -2,16 +2,6 @@
 
 The purpose of this project is to clone a part of doctolib mobil app in 48h
 
-# Stack
-
-- [React Native](https://reactnative.dev/)
-
-- [Expo](https://docs.expo.dev/)
-
-- [React Native Navigation](https://reactnavigation.org/)
-
-- [randomuser API](https://randomuser.me/)
-
 # Quick start 🐆
 
 ## install Expo CLI on computer 💻
@@ -41,3 +31,13 @@ The purpose of this project is to clone a part of doctolib mobil app in 48h
 # Slow start 🐌
 
 - check [official expo documentation](https://docs.expo.dev/get-started/installation/)
+
+# Stack
+
+- [React Native](https://reactnative.dev/)
+
+- [Expo](https://docs.expo.dev/)
+
+- [React Native Navigation](https://reactnavigation.org/)
+
+- [randomuser API](https://randomuser.me/)
