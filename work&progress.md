@@ -2,8 +2,6 @@
 
 - separate randomUserApi in an other package
 
-- Update readme & get started section
-
 # In progress ⏳
 
 # Done ✅
